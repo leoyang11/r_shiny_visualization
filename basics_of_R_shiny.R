@@ -1,4 +1,6 @@
 
+## minor change test
+
 ## A basic shiny app
 
 library(shiny)
@@ -130,7 +132,7 @@ names(tags)
 
 server <- function(input, output, session) {}
 
-ui <- fluidPage(
+ui<- fluidPage(
   
   titlePanel(strong("This is the STRONG tag on the Title")), # using strong as a direct tag
   
